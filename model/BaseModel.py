@@ -38,8 +38,8 @@ def generate_output(message_payload):
         return f"API Error: {str(e)}"
 
 
-
-if __name__ == '__main__':
-    messages="I ordered a laptop a week ago and the tracking still says 'Processing'. I need this for work by tomorrow. Cancel the order immediately and give me my money back!"
-    result=generate_output(messages)
-    print(result)
+#
+# if __name__ == '__main__':
+#     messages="I ordered a laptop a week ago and the tracking still says 'Processing'. I need this for work by tomorrow. Cancel the order immediately and give me my money back!"
+#     result=generate_output(messages)
+#     print(result)
