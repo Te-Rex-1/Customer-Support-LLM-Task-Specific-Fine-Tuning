@@ -48,7 +48,7 @@ The application utilizes a distributed tri-process architecture:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Te-Rex-1/Customer-Support-LLM-Task-Specific-Fine-Tuning.git
    cd Customer-Support-LLM
    ```
 
