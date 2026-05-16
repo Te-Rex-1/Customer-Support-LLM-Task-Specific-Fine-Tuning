@@ -30,7 +30,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("⚖️ Live Model Comparison: Base vs. Fine-Tuned")
+st.title("Live Model Comparison: Base vs. Fine-Tuned")
 
 # 2. Sidebar Configuration
 st.sidebar.header("Cloud API Settings")
@@ -44,7 +44,7 @@ with col1:
     base_container = st.empty()
 
 with col2:
-    st.markdown('<p class="model-header">🚀 Fine-Tuned (Local GPU)</p>', unsafe_allow_html=True)
+    st.markdown('<p class="model-header"> Fine-Tuned (Local GPU)</p>', unsafe_allow_html=True)
     ft_container = st.empty()
 
 # 4. Shared Input
